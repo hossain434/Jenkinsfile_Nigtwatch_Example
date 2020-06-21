@@ -9,12 +9,21 @@ NPM chromedriver is a chromium driver which sends request to chrome browser, so 
 6.	Create new Job: New Item -> Pipeline Script
 7.	GitHub project: Project URL: https://github.com/hossain434/nightwatch_sample_example
 8.	Pipeline: Definition-> Pipeline script form SCM
+
 SCM-> Git
+
 Repository URL: https://github.com/hossain434/nightwatch_sample_example  (doesn’t need to provide .git URL)
+
 Left the credentials blank since this is public link
+
 Branch to build: Master
+
 Repository browser: Auto
+
 Script path: Jenkinsfile
+
 Create a Jenkinsfile and add in the GitHub project. If you have more than one then name as Jenkinsfile_1, Jenkinsfile_2 etc.
+
 Example: https://github.com/hossain434/nightwatch_sample_example/blob/master/Jenkinsfile
+
 9.	Build Trigger: Setup schedule.
